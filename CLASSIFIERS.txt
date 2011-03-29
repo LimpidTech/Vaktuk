@@ -1,0 +1,4 @@
+Programming Language :: Python
+Framework :: Pylons
+Topic :: Internet :: WWW/HTTP
+Topic :: Internet :: WWW/HTTP :: WSGI :: Application
