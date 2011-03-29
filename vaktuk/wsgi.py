@@ -15,6 +15,6 @@ def main(global_config, **settings):
 
     config = Configurator(settings=settings, root_factory=Resource.factory)
 
-    include_me(config)
+    config.include(include_me)
 
     return config.make_wsgi_app()
