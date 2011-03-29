@@ -3,7 +3,7 @@ from pyramid.config import Configurator
 from .extensibility import include_me
 from .resources import Resource
 
-def main(global_config, **settings):
+def factory(global_config, **settings):
     """ Application entry point.
 
     The application entry point. Provides a WSGI application that represents
