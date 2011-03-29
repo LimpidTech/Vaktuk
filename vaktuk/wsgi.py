@@ -4,7 +4,7 @@ from .extensibility import include_me
 from .resources import Resource
 
 def factory(global_config, **settings):
-    """ Application entry point.
+    """ Application entry point factory for serving with wsgi.
 
     The application entry point. Provides a WSGI application that represents
     our a basic pyramid application which uses Vaktuk. Usually, you will want to
