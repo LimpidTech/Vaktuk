@@ -2,6 +2,14 @@
 
 *.pyc
 
+*.git
+
+bin/*
+build/*
+dist/*
+include/*
+lib/*
+
 .*
 !.gitignore
 !.gitmodules
